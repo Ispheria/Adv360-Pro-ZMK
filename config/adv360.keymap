@@ -59,10 +59,10 @@
 
         layer_fn {
             bindings = <
- &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6            &tog 1   &mo 3  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
- &trans  &trans  &trans  &trans  &trans  &trans             &none   &none  &trans  &trans  &trans   &trans   &trans   &trans
- &trans  &trans  &trans  &trans  &trans  &trans             &none  &trans  &trans                   &trans   &trans    &none  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans             &none   &none  &trans   &none   &none   &trans    &none    &none  &trans  &trans  &trans  &trans  &trans  &trans
+ &kp ESCAPE  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5            &tog 1   &mo 3  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11
+ &trans  &kp EXCL  &kp AT  &kp LBRC  &kp RBRC  &kp PIPE             &none   &none  &none &kp PRCNT &kp UNDER  &kp HASH   &kp DLLR &kp F12
+ &trans  &kp HASH  &kp DLLR  &kp LPAR  &kp RPAR  &trans             &none  &trans  &trans                   &trans   &trans    &none  &trans  &kp STAR  &kp PLUS  &kp MINUS  &kp EQUAL  &trans
+ &trans  &kp PRCNT  &kp CARET  &kp LBKT  &kp RBKT  &kp TILDE             &none   &none  &trans   &none   &none   &trans    &none    &none  &kp AMPS  &kp EXCL  &kp AMPS  &kp GT  &kp PIPE  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans   &trans   &trans   &trans  &trans  &trans
             >;
         };
